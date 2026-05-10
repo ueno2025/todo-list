@@ -1,30 +1,25 @@
 
 .todo-container {
-    width: 300px;              /* ボックスの横幅 */
-    margin: 40px auto;         /* 上下40px、左右autoで中央配置 */
+    width: 90%;
+    max-width: 480px;
+    margin: 40px auto;
 
-    border: 2px solid black;   /* 枠線 */
-    border-radius: 12px;       /* 角を丸くする */
+    border: 1px solid #ddd;   
+    border-radius: 12px;       
 
-    padding: 20px;             /* 内側の余白 */
-    
-
-    background-color: #f9f9f9; /* 背景色 */
+    background-color: #f9f9f9; 
 
 }
 
+
 .todo-container h1 {
     text-align: center;
+    margin: 10px 20px 20px 20px;
 }
 
 .todo-list {
     list-style: none;
     padding: 0;
-    margin: 0;
-
+    margin: 10px 20px 20px 20px;
     text-align: left;
-}
-
-ul {
-    list-style: none;
 }
