@@ -1,9 +1,30 @@
-h1 {
-    /* color: red; */
+
+.todo-container {
+    width: 300px;              /* ボックスの横幅 */
+    margin: 40px auto;         /* 上下40px、左右autoで中央配置 */
+
+    border: 2px solid black;   /* 枠線 */
+    border-radius: 12px;       /* 角を丸くする */
+
+    padding: 20px;             /* 内側の余白 */
+    
+
+    background-color: #f9f9f9; /* 背景色 */
+
+}
+
+.todo-container h1 {
     text-align: center;
 }
 
-.check_list {
-    text-align: center;
-    /* color: red; */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    text-align: left;
+}
+
+ul {
+    list-style: none;
 }
