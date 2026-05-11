@@ -26,6 +26,8 @@
     width: 90%;
     display: flex;
     gap: 16px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
 }
 
 .input-area input {
@@ -36,6 +38,7 @@
 
     font-size: 18px;
     box-shadow: 0 0 4px rgba(0,0,0,0.08);
+
 }
 
 .input-area button {
