@@ -1,20 +1,50 @@
 
 .todo-container {
-    width: 90%;
-    max-width: 480px;
+    width: 95%;
+    max-width: 540px;
     margin: 40px auto;
 
     border: 1px solid #ddd;   
-    border-radius: 12px;       
+    border-radius: 8px;       
 
-    background-color: #f9f9f9; 
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0,0,0,0.08);
 
 }
 
 
+
+
 .todo-container h1 {
-    text-align: center;
+    text-align: left;
+    font-size: 25px;
     margin: 10px 20px 20px 20px;
+}
+
+.input-area {
+    margin-left: 20px;
+    width: 90%;
+    display: flex;
+    gap: 16px;
+}
+
+.input-area input {
+    padding: 12px;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    font-size: 18px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.08);
+}
+
+.input-area button {
+    padding: 12px 24px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #136FF6;
+    color: white;
+    box-shadow: 0 0 4px rgba(0,0,0,0.08);
 }
 
 .todo-list {
