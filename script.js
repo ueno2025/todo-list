@@ -5,12 +5,12 @@ const todoList = document.querySelector(".todo-list");
 const delete_buttons = document.querySelectorAll(".delete-btn");
 
 // 入力処理
-
 function addTodo() {
     const input_text = input.value;
     if (input_text === "") return;
 
     const li = document.createElement("li");
+    li.classList.add('todo-li');
     li.textContent = input_text;
 
     const delete_button = document.createElement("button");
@@ -33,7 +33,6 @@ input.addEventListener("keydown", (event) => {
         addTodo();
     }
 });
-
 
 
 // 削除処理
