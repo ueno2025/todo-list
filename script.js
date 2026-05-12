@@ -14,7 +14,7 @@ function addTodo() {
     li.textContent = input_text;
 
     const delete_button = document.createElement("button");
-    delete_button.textContent = "削除";
+    delete_button.innerHTML = '<img src="trash-2.svg" alt="削除">';
     delete_button.addEventListener("click", () => {
         li.remove();
     });

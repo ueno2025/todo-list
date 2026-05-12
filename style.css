@@ -57,6 +57,14 @@
 
 
 .todo-li {
-    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 18px;
     border-bottom: 1px solid #ddd;
+}
+
+.todo-li button {
+    border: 1px white;
+    background-color: white;
 }
