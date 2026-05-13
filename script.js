@@ -20,7 +20,7 @@ function saveData() {
 window.addEventListener("load", () => {
     const savedTodos = JSON.parse(localStorage.getItem("todoList"));
 
-    if (savedTodos && savedTodos.length > 0) {
+    if (savedTodos != null) {
         savedTodos.forEach(todoText => {
             renderTodo(todoText);
         });
